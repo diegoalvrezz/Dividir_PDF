@@ -66,9 +66,9 @@ Los documentos PDF deben contener texto seleccionable (no imágenes escaneadas) 
 
 ## Ejecución
 
-1. Colocar los archivos `archivo.pdf` y `biobancbdd.xlsx` en la carpeta del proyecto.
-2. Ejecutar el archivo `main.py`.
-3. Se generarán los archivos Excel `resultados.xlsx` y `resultadosfinal.xlsx` con los datos procesados.
+1. Colocar los archivos archivo.pdf y biobancbdd.xlsx en la carpeta del proyecto.
+2. Ejecutar el archivo main.py.
+3. Se generarán los archivos Excel resultados.xlsx y resultadosfinal.xlsx con los datos procesados.
 
 ## Autor
 
