@@ -14,7 +14,7 @@ Todo el procesamiento se realiza de forma local, garantizando la privacidad y se
 
 ### 1. Extracción de informes válidos desde un PDF
 
-La función `extraer_informes_pdf(pdf_path)` analiza los documentos en busca de informes que contengan:
+La función extraer_informes_pdf(pdf_path) analiza los documentos en busca de informes que contengan:
 
 - Número de historia clínica (NHC)
 - Número de muestra o biopsia
@@ -26,15 +26,15 @@ Solo los informes que cumplen con todos estos requisitos son extraídos.
 
 ### 2. Exportación de resultados
 
-La función `guardar_en_excel(datos, output_path)` permite guardar los informes válidos en un archivo Excel para facilitar su revisión o tratamiento posterior.
+La función guardar_en_excel(datos, output_path) permite guardar los informes válidos en un archivo Excel para facilitar su revisión o tratamiento posterior.
 
 ### 3. Combinación con una base de datos externa
 
-La función `combinar_resultados(base_resultados, base_biobancbdd, output_final)` realiza la unión de los resultados obtenidos con una base de datos externa (`biobancbdd.xlsx`) utilizando el campo NHC como clave de enlace. El resultado es un nuevo archivo Excel enriquecido con la información adicional.
+La función combinar_resultados(base_resultados, base_biobancbdd, output_final) realiza la unión de los resultados obtenidos con una base de datos externa (biobancbdd.xlsx) utilizando el campo NHC como clave de enlace. El resultado es un nuevo archivo Excel enriquecido con la información adicional.
 
 ## Requisitos
 
-El entorno de ejecución requiere las siguientes dependencias, especificadas en el archivo `requirements.txt`:
+El entorno de ejecución requiere las siguientes dependencias, especificadas en el archivo requirements.txt:
 
 - pandas
 - PyMuPDF
